@@ -1,0 +1,44 @@
+<resources>
+  <string name="app_name">GertecOne Framework</string>
+
+  <string-array name="Tamanhos">
+    <item>10</item>
+    <item>20</item>
+    <item>30</item>
+    <item>40</item>
+    <item>50</item>
+    <item>60</item>
+    <item>70</item>
+    <item>80</item>
+    <item>90</item>
+    <item>100</item>
+  </string-array>
+
+  <string-array name="Widths">
+    <item>10</item>
+    <item>40</item>
+    <item>80</item>
+    <item>120</item>
+    <item>160</item>
+    <item>200</item>
+    <item>240</item>
+    <item>280</item>
+    <item>320</item>
+    <item>380</item>
+  </string-array>
+
+  <string-array name="Fonts">
+    <item>DEFAULT</item>
+    <item>MONOSPACE</item>
+    <item>SANS SERIF</item>
+    <item>SERIF</item>
+    <item>VECTRA.otf</item>
+  </string-array>
+
+  <string-array name="BarCodes">
+    <item>CODE_128</item>
+    <item>PDF_417</item>
+    <item>QR_CODE</item>
+  </string-array>
+  
+</resources>
