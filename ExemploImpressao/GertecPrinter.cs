@@ -38,23 +38,45 @@ namespace ExemploImpressao
         private Activity mainActivity;
         private Context mainContext;
 
-
-        public GertecPrinter(Activity act, Context ctx)
+        public GertecPrinter( Context ctx)
         {
-            this.mainActivity = act;
             this.mainContext = ctx;
-            startGedi();
+            startGediGPOS700();
         }
 
-        public void startGedi()
+        
+        //  TSG 800
+        // public GertecPrinter(Activity act)
+        // {
+        //     this.mainActivity = act;
+        //     startGediTSG800();
+        // }
+
+        public void startGediGPOS700()
         {
             new Thread(new ThreadStart(() =>
             {
-                this.iGedi = GEDI.GetInstance(this.mainActivity);
+                GEDI.Init(this.mainContext);
+                this.iGedi = GEDI.GetInstance(this.mainContext);
                 this.iPrintr = iGedi.PRNTR;
-                ImpressoraInit();
+                Thread.Sleep(100);
             })).Start();
         }
+
+        /*
+        public void startGediTSG800()
+        {
+            new Thread(new ThreadStart(() =>
+            {
+                #if __G800__
+                    this.iGedi = new Gedi(this.mainActivity);
+                    this.iGedi = GEDI.GetInstance(this.mainActivity);
+                    this.iPrintr = iGedi.PRNTR;
+                    Thread.Sleep(250);
+                #endif
+            })).Start();
+        }
+        */
 
         private void ImpressoraInit()
         {
@@ -361,7 +383,7 @@ namespace ExemploImpressao
                     break;
 
                 default:
-                    this.typeface = Typeface.CreateFromAsset(this.mainContext.Assets, configPrint.Fonte);
+                    this.typeface = Typeface.CreateFromAsset(this.mainContext.Assets, "fonts/" + configPrint.Fonte);
                     break;
             }
 

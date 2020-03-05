@@ -73,7 +73,12 @@ namespace ExemploImpressao
 
             // Ini context
             context = ApplicationContext;
-            printer = new GertecPrinter(this, context);
+            // #if __G700__
+                printer = new GertecPrinter(context);
+            // #elif __G800__
+            //     sdfjksdjfklsdjflks
+            // #endif
+
             configPrint = new ConfigPrint();
             printer.setConfigImpressao(configPrint);
 

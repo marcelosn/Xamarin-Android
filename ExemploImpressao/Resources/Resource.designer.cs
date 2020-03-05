@@ -4343,43 +4343,85 @@ namespace ExemploImpressao
 			public const int bottom_sheet_behavior = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int character_counter_content_description = 2131623978;
+			public const int button0 = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int character_counter_pattern = 2131623979;
+			public const int button1 = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int fab_transformation_scrim_behavior = 2131623980;
+			public const int button2 = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int fab_transformation_sheet_behavior = 2131623981;
+			public const int button3 = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int hide_bottom_view_on_scroll_behavior = 2131623982;
+			public const int button4 = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int mtrl_chip_close_icon_content_description = 2131623983;
+			public const int button5 = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int password_toggle_content_description = 2131623984;
+			public const int button6 = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int path_password_eye = 2131623985;
+			public const int button7 = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int path_password_eye_mask_strike_through = 2131623986;
+			public const int button8 = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int path_password_eye_mask_visible = 2131623987;
+			public const int button9 = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int path_password_strike_through = 2131623988;
+			public const int button_cancel = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int search_menu_title = 2131623989;
+			public const int button_clear = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int status_bar_notification_info_overflow = 2131623990;
+			public const int button_enter = 2131623990;
+			
+			// aapt resource value: 0x7F0E0037
+			public const int character_counter_content_description = 2131623991;
+			
+			// aapt resource value: 0x7F0E0038
+			public const int character_counter_pattern = 2131623992;
+			
+			// aapt resource value: 0x7F0E0039
+			public const int fab_transformation_scrim_behavior = 2131623993;
+			
+			// aapt resource value: 0x7F0E003A
+			public const int fab_transformation_sheet_behavior = 2131623994;
+			
+			// aapt resource value: 0x7F0E003B
+			public const int hide_bottom_view_on_scroll_behavior = 2131623995;
+			
+			// aapt resource value: 0x7F0E003C
+			public const int mtrl_chip_close_icon_content_description = 2131623996;
+			
+			// aapt resource value: 0x7F0E003D
+			public const int output_textbox = 2131623997;
+			
+			// aapt resource value: 0x7F0E003E
+			public const int password_toggle_content_description = 2131623998;
+			
+			// aapt resource value: 0x7F0E003F
+			public const int path_password_eye = 2131623999;
+			
+			// aapt resource value: 0x7F0E0040
+			public const int path_password_eye_mask_strike_through = 2131624000;
+			
+			// aapt resource value: 0x7F0E0041
+			public const int path_password_eye_mask_visible = 2131624001;
+			
+			// aapt resource value: 0x7F0E0042
+			public const int path_password_strike_through = 2131624002;
+			
+			// aapt resource value: 0x7F0E0043
+			public const int search_menu_title = 2131624003;
+			
+			// aapt resource value: 0x7F0E0044
+			public const int status_bar_notification_info_overflow = 2131624004;
 			
 			static String()
 			{
